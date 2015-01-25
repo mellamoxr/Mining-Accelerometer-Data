@@ -1,5 +1,5 @@
 #This file includes codes generating prediction we submitted online
-# We submit 8 csv files (one for each method) online
+# There are 8 csv files (one for each method) submitted online
 # Accuracy:
 # 1)Tree                        74.632%              
 # 2)Random Forest               76.546%
@@ -11,7 +11,7 @@
 # 6)Majority vote 
 # (Tree,Randomforest,Boosting)  77.313%
 
-library(rattle)  # This is a package for data mining in R
+library(rattle)  # a package for data mining in R
 library(data.table)
 library(e1071)
 library(randomForest)
